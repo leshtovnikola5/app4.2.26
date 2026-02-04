@@ -20,19 +20,19 @@ q5 = st.text_input("Отговор:", key="q5")
 if st.button("Проверка"):
     tochki = 0
 
-    if q1.lower() == "1914":
+    if q1 == "1914":
         tochki += 1
 
     if q2 == "Антантата":
         tochki += 1
 
-    if q3.lower() == "Германия":
+    if q3 == "Германия":
         tochki += 1
 
     if q4 == "Владимир Ленин":
         tochki += 1
 
-    if q5.lower() == "1939":
+    if q5 == "1939":
         tochki += 1
 
     st.write(f" Резултат е: {tochki} / 5")
