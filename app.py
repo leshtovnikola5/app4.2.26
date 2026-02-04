@@ -18,7 +18,7 @@ st.write("Кога започва Втората световна война?")
 q5 = st.text_input("Отговор:", key="q5")
 
 if st.button("Проверка"):
-    tochki = 1
+    tochki = 0
 
     if q1 == "1914":
         tochki += 1
